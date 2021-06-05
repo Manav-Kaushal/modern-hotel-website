@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Banner from "../components/Banner";
 import Hero from "../components/Hero";
-import { roomsBanner } from "../utils/mocks/BannerData";
+import { bookingsBanner } from "../utils/mocks/BannerData";
 
-const Rooms = () => {
+const Bookings = () => {
   return (
     <Hero hero="roomsHero">
-      {roomsBanner.map((data) => {
+      {bookingsBanner.map((data) => {
         return (
           <Banner title={data.title} subtitle={data.subtitle}>
             {data.btnShow && (
@@ -22,4 +22,4 @@ const Rooms = () => {
   );
 };
 
-export default Rooms;
+export default Bookings;
