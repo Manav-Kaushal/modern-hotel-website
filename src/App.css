@@ -87,6 +87,15 @@ h6 {
   padding: 1rem;
   letter-spacing: var(--mainSpacing);
 }
+.booking-btn-container {
+  padding: 2rem;
+  text-align: center;
+}
+.booking-btn-container .btn-primary:hover {
+  color: var(--mainBlack);
+  border-color: var(--mainBlack);
+  transform: translateY(-5px);
+}
 /* end of globals */
 /* Navbar */
 .navbar {
@@ -321,18 +330,18 @@ h6 {
 .price-top {
   position: absolute;
   top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  right: 0;
+  background: var(--mainBlack);
   color: var(--mainWhite);
   padding: 0.3rem 0.6rem 0.5rem;
-  border-bottom-right-radius: 1rem;
-  font-size: 0.5rem;
+  border-bottom-left-radius: 1rem;
+  font-size: 0.6rem;
   text-align: center;
   transition: var(--mainTransition);
 }
 .price-top h6 {
   margin-bottom: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 300;
   letter-spacing: var(--mainSpacing);
 }
@@ -361,7 +370,7 @@ h6 {
   padding: 0.5rem 0;
   text-align: center;
   font-weight: 700;
-  letter-spacing: var(--mainSpacing);
+  letter-spacing: var(--secondarySpacing);
 }
 /* end of room  */
 /* single room*/
