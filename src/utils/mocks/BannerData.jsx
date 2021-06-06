@@ -52,8 +52,8 @@ export const bookingsBanner = [
 
 export const errorBanner = [
   {
-    title: "error 404",
-    subtitle: "Page not found",
+    title: "Oops! 404",
+    subtitle: "The page you were looking for does not exist.",
     btnShow: true,
     btnLabel: "return home",
     btnLink: "/",

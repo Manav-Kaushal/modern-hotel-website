@@ -255,7 +255,8 @@ h6 {
   margin-bottom: 1.5rem;
 }
 .services h6 {
-  letter-spacing: var(--mainSpacing);
+  letter-spacing: var(--secondarySpacing);
+  text-transform: capitalize;
 }
 .services p {
   width: 80%;
@@ -364,7 +365,6 @@ h6 {
 }
 /* end of room  */
 /* single room*/
-
 .single-room {
   padding: 5rem 0 0 0;
 }

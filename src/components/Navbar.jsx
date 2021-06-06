@@ -36,7 +36,7 @@ export default class Navbar extends Component {
           >
             {navLinks.map((data) => {
               return (
-                <li>
+                <li key={data.label}>
                   <Link to={data.path} onClick={this.handleToggle}>
                     {data.label}
                   </Link>
